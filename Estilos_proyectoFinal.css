@@ -1,0 +1,133 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: darkgrey;
+}
+
+header {
+  background-color: #3F51B5;
+  color: white;
+  display: block ;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+h1 {
+  
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  width: calc(33.33% - 20px);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-10px);
+  box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+#about {
+  background-color: lightblue;
+}
+
+#experience {
+  background-color: lightcoral;
+}
+
+#skills {
+  background-color: lightgreen;
+}
+
+#contact {
+  background-color: #C4ECC2;
+}
+
+#direction {
+  background-color: #33F3FF;
+}
+#education {
+  background-color: #3f7130;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: #3F51B5;
+  border: 2px solid #3F51B5;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header nav a:hover {
+  color: lightgray;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin: auto
+
+}
+
+#imagen {
+  width: 100%;
+
+ 
+}
+#fondo {
+  display: block;
+  margin: auto;
+}
+.pie {
+  background-color: lightgray;
+  text-align: center;
+}
